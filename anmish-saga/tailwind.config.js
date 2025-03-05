@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: { 
-        montserrat: ['Montserrat', 'sans-serif'],
+        parisienne: ['Parisienne', 'cursive'],
       },
       colors: {
         primary: '#00C2FF',
