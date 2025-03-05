@@ -53,11 +53,17 @@ This project is a Metaverse-themed web application built using React and Tailwin
    npm run dev
    ```
 
-## Usage
-- Open `http://localhost:5174` in your browser to view the application.
-- Navigate through the different sections to explore features.
-- Click on the app store buttons to simulate downloading the app.
-- Click the play button in the video popup component to watch the video.
+Usage
+
+The AppStore.js file displays buttons to download the app.
+
+The Features.js file showcases app features.
+
+The Footer.js file contains quick links and contact information.
+
+The PopupPlayer.js file handles a video popup player.
+
+The Quotes.js file displays an inspirational quote.
 
 ## Folder Structure
 ```
@@ -82,8 +88,7 @@ anmish-app/
 │── README.md
 ```
 
-## License
-This project is licensed under the MIT License.
+
 
 ## Author
 Developed by   MANISH KUMAR.
