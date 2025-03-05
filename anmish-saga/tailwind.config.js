@@ -7,21 +7,19 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-      fontFamily:{ 
+      fontFamily: { 
         montserrat: ['Montserrat', 'sans-serif'],
       },
       colors: {
-      primary: '#00C2Ff',
-        secondary: '#DD0BFF', 
+        primary: '#00C2FF',
+        secondary: '#FF33AA', 
         dark: '#111111',
-       
       },
       container: {
+        center: true,
         padding: {
-          center: true,
           DEFAULT: '1rem',
           sm: '3rem',
-      
         },
       },
     },
