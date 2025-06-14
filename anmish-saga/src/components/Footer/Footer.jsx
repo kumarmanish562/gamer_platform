@@ -28,7 +28,7 @@ const FooterLinks = [
 const Footer = () => {
   return (
     <>
-      <div className="bg-gray-100 dark:bg-dark mt-14 rounded-t-3xl">
+      <div className="bg-gradient-to-r from-primary to-secondary dark:from-gray-800 dark:to-gray-900 mt-14 rounded-t-3xl text-white">
         <div data-aos="fade" className="container">
           <div className="grid md:grid-cols-3 py-4">
             {/* company Details */}
@@ -36,7 +36,7 @@ const Footer = () => {
               <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
                 Metaverse
               </h1>
-              <p className="text-sm">
+              <p className="text-sm opacity-90">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Repellat dolor illum a aut iste expedita.
               </p>
@@ -57,13 +57,13 @@ const Footer = () => {
               {/* social handle */}
               <div className="flex items-center gap-3 mt-6">
                 <a href="#">
-                  <FaFacebook className="text-3xl hover:text-primary duration-300" />
+                  <FaFacebook className="text-3xl hover:text-gray-200 hover:scale-110 duration-300" />
                 </a>
                 <a href="#">
-                  <FaInstagram className="text-3xl hover:text-primary duration-300" />
+                  <FaInstagram className="text-3xl hover:text-gray-200 hover:scale-110 duration-300" />
                 </a>
                 <a href="#">
-                  <FaLinkedin className="text-3xl hover:text-primary duration-300" />
+                  <FaLinkedin className="text-3xl hover:text-gray-200 hover:scale-110 duration-300" />
                 </a>
               </div>
             </div>
@@ -72,16 +72,16 @@ const Footer = () => {
             <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold mb-3 ">Quick Links</h1>
+                  <h1 className="text-xl font-bold mb-3">Quick Links</h1>
                   <ul className="space-y-3">
                     {FooterLinks.map((link) => (
                       <li
                         key={link.id}
-                        className="hover:translate-x-1 duration-300 "
+                        className="hover:translate-x-1 duration-300"
                       >
                         <a
                           href={link.link}
-                          className="cursor-pointer hover:text-primary"
+                          className="cursor-pointer hover:text-gray-200"
                         >
                           {link.title}
                         </a>
@@ -92,16 +92,16 @@ const Footer = () => {
               </div>
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold mb-3 ">Quick Links</h1>
+                  <h1 className="text-xl font-bold mb-3">Quick Links</h1>
                   <ul className="space-y-3">
                     {FooterLinks.map((link) => (
                       <li
                         key={link.id}
-                        className="hover:translate-x-1 duration-300 "
+                        className="hover:translate-x-1 duration-300"
                       >
                         <a
                           href={link.link}
-                          className="cursor-pointer hover:text-primary"
+                          className="cursor-pointer hover:text-gray-200"
                         >
                           {link.title}
                         </a>
@@ -112,16 +112,16 @@ const Footer = () => {
               </div>
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold mb-3 ">Location</h1>
+                  <h1 className="text-xl font-bold mb-3">Location</h1>
                   <ul className="space-y-3">
                     {FooterLinks.map((link) => (
                       <li
                         key={link.id}
-                        className="hover:translate-x-1 duration-300 "
+                        className="hover:translate-x-1 duration-300"
                       >
                         <a
                           href={link.link}
-                          className="cursor-pointer hover:text-primary"
+                          className="cursor-pointer hover:text-gray-200"
                         >
                           {link.title}
                         </a>

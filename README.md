@@ -1,7 +1,11 @@
 # Metaverse Web Application
 
+![Metaverse Preview Banner](./anmish-saga//src/assets/banner.png)
+
 ## Overview
 This project is a Metaverse-themed web application built using React and Tailwind CSS. The application includes various UI components such as a feature section, footer, app store links, video popup player, and inspirational quotes.
+
+---
 
 ## Features
 
@@ -29,32 +33,34 @@ This project is a Metaverse-themed web application built using React and Tailwin
 - Displays an inspirational quote about virtual reality.
 - Uses elegant typography to enhance visual appeal.
 
+---
+
 ## Technologies Used
 - **React.js**: Frontend framework for building UI components.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **React Icons**: Library for adding icons.
 - **AOS (Animate on Scroll)**: Used for scroll-based animations.
 
+---
+
 ## Installation & Setup
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/anmish-app.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd anmish-app
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
 
+
+Navigate to the project folder:
+
+cd anmish-app
+Install dependencies:
+
+npm install
+Start the development server:
+
+
+npm run dev
 Usage
-
 The AppStore.js file displays buttons to download the app.
 
 The Features.js file showcases app features.
@@ -65,8 +71,10 @@ The PopupPlayer.js file handles a video popup player.
 
 The Quotes.js file displays an inspirational quote.
 
-## Folder Structure
-```
+UI Preview
+
+Folder Structure
+
 anmish-app/
 │── src/
 │   ├── components/
@@ -86,10 +94,12 @@ anmish-app/
 │── public/
 │── package.json
 │── README.md
-```
+
+Author
+Developed by Manish Kumar.
 
 
 
-## Author
-Developed by   MANISH KUMAR.
+---
 
+Let me know if you want to embed GIFs, add deployment links, or customize the images further!
