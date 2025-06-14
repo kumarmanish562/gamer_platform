@@ -47,7 +47,7 @@ This project is a Metaverse-themed web application built using React and Tailwin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/anmish-app.git
+   git clone https://github.com/kumarmanish562/gamer_platform.git
 
 
 Navigate to the project folder:
